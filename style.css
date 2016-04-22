@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,400italic);
+h1{
+  text-align: center;
+margin: 0;
+padding-top: .25em;
+font-family: "Merriweather", sans-serif;
+font-weight: 900;
+}
+h2{
+  text-align: center;
+margin: 5px;
+padding-top: 0;
+padding-bottom: .50em;
+font-family: "Merriweather", sans-serif;
+font-weight: 700;
+}
+#info{
+  text-align: center;
+margin: 0;
+padding-top: .25em;
+font-family: "Roboto",sans-serif;
+}
+
+.align1{
+  box-sizing: border-box;
+  padding-bottom: 150px;
+  padding-left: 250px;
+  margin: 90px;
+  overflow: auto;
+}
+
+.row1{
+  margin: auto;
+overflow: auto;
+}
+
+.row2{
+  margin: auto;
+overflow: auto;
+}
+
+.one{
+      width: 170px;
+      height: 170px;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      border-radius: 120px;
+      background:black;
+      float: left;
+      text-align:center;
+      box-sizing: border-box;
+      padding-top: 50px;
+      margin-left:85px;
+      margin-bottom: 50px
+    }
+
+.two{
+  width: 120px;
+  height: 120px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 120px;
+  background:black;
+  float:left;
+text-align: center;
+box-sizing: border-box;
+box-sizing: border-box;
+padding-top: 50px;
+    margin-left: 120px;
+  margin-top: 30px;
+}
+.three{
+      width: 170px;
+      height: 170px;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      border-radius: 120px;
+      background:brown;
+      float: left;
+      text-align:center;
+      box-sizing: border-box;
+      padding-top: 50px;
+      margin-left:85px;
+      margin-bottom: 50px
+    }
+
+.twitter{
+  background-image: url(images/twitter.png);
+}
