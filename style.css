@@ -1,11 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700,900);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,400italic);
+header {
+  margin: 0 auto;
+  width: 2000px;
+  overflow: auto;
+  background-image: url(images/field.jpg)
+}
 h1{
   text-align: center;
 margin: 0;
 padding-top: .25em;
 font-family: "Merriweather", sans-serif;
 font-weight: 900;
+font-size: 90px;
+color: white;
 }
 h2{
   text-align: center;
@@ -14,18 +22,29 @@ padding-top: 0;
 padding-bottom: .50em;
 font-family: "Merriweather", sans-serif;
 font-weight: 700;
+font-size: 40px;
+color:#3F0E0D;
 }
-#info{
+h3{
   text-align: center;
 margin: 0;
-padding-top: .25em;
 font-family: "Roboto",sans-serif;
+font-weight: 900;
+font-size: 30px;
+color: black;
 }
 
+body{
+  background-color: #FFB577;
+font-family: "Roboto",sans-serif;
+font-size: 25px;
+font-weight: 400;
+color: #B66A3B;
+}
 .align1{
   box-sizing: border-box;
   padding-bottom: 150px;
-  padding-left: 250px;
+  padding-left: 400px;
   margin: 90px;
   overflow: auto;
 }
@@ -41,50 +60,89 @@ overflow: auto;
 }
 
 .one{
-      width: 170px;
-      height: 170px;
-      -webkit-border-radius: 60px;
-      -moz-border-radius: 60px;
-      border-radius: 120px;
-      background:black;
-      float: left;
-      text-align:center;
-      box-sizing: border-box;
-      padding-top: 50px;
-      margin-left:85px;
-      margin-bottom: 50px
-    }
-
-.two{
-  width: 120px;
-  height: 120px;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 120px;
-  background:black;
-  float:left;
-text-align: center;
-box-sizing: border-box;
-box-sizing: border-box;
-padding-top: 50px;
-    margin-left: 120px;
-  margin-top: 30px;
-}
-.three{
-      width: 170px;
-      height: 170px;
-      -webkit-border-radius: 60px;
-      -moz-border-radius: 60px;
-      border-radius: 120px;
+      width: 320px;
+      height: 320px;
+      -webkit-border-radius: 90px;
+      -moz-border-radius: 90px;
+      border-radius: 180px;
       background:brown;
       float: left;
       text-align:center;
+      font-family: "Roboto", sans-serif;
+      font-size: 45px;
       box-sizing: border-box;
-      padding-top: 50px;
+      padding-top: 110px;
       margin-left:85px;
-      margin-bottom: 50px
+      margin-bottom: 50px;
     }
 
-.twitter{
-  background-image: url(images/twitter.png);
+.two{
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 120px;
+background:#AF4920;
+  float:left;
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+box-sizing: border-box;
+padding-top: 50px;
+    margin-left: 215px;
+  margin-top: 30px;
+  ont-family: "Roboto",sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+
+}
+.three{
+      width: 240px;
+      height: 240px;
+      border-radius: 120px;
+      background:brown;
+      text-align:left;
+      box-sizing: border-box;
+      padding-top: 50px;
+      margin-left:auto 0;
+      margin right: auto;
+      margin-bottom:0px
+    }
+
+    .four{
+      width: 150px;
+      height: 150px;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      border-radius: 120px;
+    background:#AF4920;
+    text-align: center;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    align-items: center;
+      margin-left: 500px;
+      margin-top: 30px;
+      font-family: "Roboto",sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+
+    }
+  #map{
+      box-sizing: border-box;
+      margin: auto;
+      align-content: center;
+      float: none;
+      padding-top: 50px;
+      margin-left: 50px;
+      padding: 10%;
+      align-items: center;
+
+  }
+.fontmenu{
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: black;
 }
