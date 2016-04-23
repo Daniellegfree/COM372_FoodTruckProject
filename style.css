@@ -177,4 +177,12 @@ padding-top: 50px;
   box-sizing: border-box;
   height: 310px;
   width:420px;
+  align-items: center;
+}
+#floatImg1{
+  box-sizing: border-box;
+float: left;
+  padding-left: 40%;
+  height: 590px;
+  width:1520px;
 }
